@@ -13,5 +13,4 @@ class IssueController @Autowired constructor(private val issueService : IssueSer
     @PostMapping("/issue/example")
     fun insertExample() = issueService.addTestIssue()
 
-
 }
